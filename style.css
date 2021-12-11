@@ -1,18 +1,24 @@
 body {
-    font-family: Arial;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    text-align: center;
-    color: #333;
-    margin: 0;
-  }
-  
-  #img-caption {
-    margin: 15px 0 5px 0;
-  }
-  
-  #figcaption {
-    display: block;
-  }
-  
-  
+  font-family: Arial;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+#figcaption {
+  display: block;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+height: auto;
+}
